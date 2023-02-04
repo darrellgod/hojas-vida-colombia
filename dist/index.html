@@ -9,9 +9,11 @@
 <style>
 	.imagen {
 		background-image: url("/img/jobs.jpg");
-		height: 300px;
+/*		background-size: cover;*/
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%;
+		
+
 	}
 </style>
 <body>
@@ -58,13 +60,13 @@
 	</nav>
 	</header>
 
-	<!--Hero section -->
 	<main>
+		<!--Hero section -->
 		<section id="hero">
 			<div class="container mx-auto px-6 py-6 flex flex-col-reverse items-center md:flex-row">
 
 				<!-- 1. Encuentra un mejor empleo-->
-				<div class="space-y-10 md:w-1/2">
+				<div class="space-y-10">
 					<h1 class="text-4xl font-bold text-center md:text-left">
 						Hojas De Vida Colombia
 					</h1>
@@ -78,7 +80,7 @@
 				</div>
 
 				<!-- 2. imagen circulos-->
-				<img src="/img/illustration-intro.svg" alt="">
+				<img src="/img/illustration-intro.svg" alt="" class="md:w-1/3">
 					
 			</div>
 		</section>
@@ -156,9 +158,7 @@
 
 		<!-- FIXED IMAGEN -->
 		<section>
-			<div class="container mx-auto px-6">
-				<div class="imagen bg-fixed rounded-lg">
-				</div>	
+			<div class="h-[427px] bg-lime-300 imagen bg-fixed">
 			</div>
 		</section>
 
